@@ -12,7 +12,7 @@ import lombok.extern.slf4j.Slf4j;
 public class SpringBeanScopTestApplication {
 
 	@PostConstruct
-	public  init() {
+	public void init() {
 		log.info("application is starting");
 	}
 	public static void main(String[] args) {
